@@ -251,3 +251,294 @@ footer {
 .footer_select {
   margin-left: -5px;
 }
+/* ===== Adaptive ===== */
+
+
+@media (max-width: 1858px) {
+  .logo {
+    margin-left: 90px;
+    margin-top: 64px;
+    margin-right: 90px ;
+  }
+  .menu_item {
+    margin-right: 60px;
+  }
+  footer {
+    width: 1660px;
+  }
+@media (max-width: 1735px) {
+  .logo {
+    margin-left: 70px;
+    margin-top: 64px;
+    margin-right: 70px ;
+  }
+  .menu_item {
+    margin-right: 40px;
+  }
+  .main {
+    display: flex;
+    padding: 180px 90px 0 70px;
+    margin-bottom: 176px;
+  }
+  .main__menu_item {
+    width: 380px;
+  }
+  header {
+    width: 1735px;
+  }
+  .blog__block {
+    width: 1720px;
+  }
+  footer {
+    width: 1560px;
+  }
+}
+@media (max-width: 1675px) {
+  footer {
+    width: 1520px;
+  }
+  .photo {
+    width: 460px;
+    height: 290px;
+  }
+  .block__item {
+    width: 490px;
+  }
+  .block__card {
+    margin-left: 85px;
+  }
+}
+@media (max-width: 1575px) {
+  .block__item {
+    width: 480px;
+    margin: 0 15px 0 15px;
+  }
+  .block__card {
+    margin-left: 55px;
+  }
+  .blog__block {
+    width: 1640px;
+  }
+  .photo {
+    width: 420px;
+    height: 270px;
+  }
+  footer {
+    width: 1400px;
+  }
+}
+@media (max-width: 1525px) {
+  .logo {
+    margin-left: 45px;
+    margin-right: 45px;
+  }
+  .menu_item {
+    margin-right: 30px;
+  }
+  .block__item {
+    width: 440px;
+  }
+  .blog__block {
+    width: 1530px;
+  }
+  .block__card {
+    margin-left: 45px;
+  }
+  .footer__contacts {
+    width: 630px;
+  }
+  footer {
+    padding: 100px 80px 65px 55px;
+  }
+}
+@media (max-width: 1470px) {
+  .main__menu {
+    width: 350px;
+    margin-right: 25px;
+  }
+  .main {
+    padding: 180px 90px 0 30px;
+  }
+  footer {
+    width: 1350px;
+  }
+}
+@media (max-width: 1420px) {
+  .menu_item {
+    margin-right: 20px;
+  }
+  .search {
+    margin-left: 20px;
+  }
+  .blog__block {
+    width: 1400px;
+  }
+  .block__item {
+    width: 420px;
+  }
+  .photo {
+    width: 390px;
+    height: 250px;
+  }
+}
+@media (max-width: 1385px) {
+  footer {
+    width: 1250px;
+  }
+  .card_photo {
+    width: 260px;
+    height: 310px;
+  }
+}
+@media (max-width: 1280px) {
+  .logo {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .search {
+    margin-left: 15px;
+  }
+  .profile {
+    margin-left: 30px;
+  }
+  .main__menu_item {
+    width: 280px;
+  }
+  .blog__block {
+    width: 1270px;
+  }
+  .block__item {
+    width: 370px;
+  }
+  .photo {
+    width: 350px;
+    height: 230px;
+  }
+  footer {
+    width: 1150px;
+  }
+}
+@media (max-width: 1180px) {
+  .menu_item {
+    margin-right: 15px;
+  }
+  .search {
+    margin-left: 10px;
+  }
+  .profile {
+    margin-left: 15px;
+  }
+  .main__menu {
+    margin-right: 15px;
+  }
+  .card_photo {
+    width: 240px;
+    height: 290px;
+  }
+  .block__card {
+    margin-left: 20px;
+  }
+  .main__bgicon_pos_bottom {
+    top: 2100px;
+  }
+  .blog__block {
+    width: 1190px;
+  }
+  .photo {
+    width: 330px;
+    height: 210px;
+  }
+  .footer__contacts {
+    width: 500px;
+  }
+  .icons__soc {
+    justify-content: flex-start;
+  }
+  footer {
+    padding: 100px 80px 65px 20px;
+  }
+}
+@media (max-width: 1024px) {
+  .logo {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .menu_item {
+    margin-right: 5px;
+    width: 90px;
+  }
+  .main__menu_item {
+    width: 200px;
+  }
+  .card_photo {
+    width: 230px;
+    height: 280px;
+  }
+  .block__item {
+    width: 310px;
+  }
+  .blog__block {
+    width: 1010px;
+  }
+  .footer__contacts {
+    width: 290px;
+    flex-direction: column;
+  }
+  footer {
+    width: 920px;
+  }
+}
+@media (max-width: 920px) {
+  .main__menu_item {
+    width: 160px;
+  }
+  .block__card {
+    margin-left: 10px;
+  }
+  .card_photo {
+    width: 190px;
+    height: 230px;
+  }
+  .photo {
+    width: 290px;
+    height: 170px;
+  }
+  .blog__block {
+    width: 870px;
+  }
+  .block__item {
+    width: 270px;
+  }
+  .main__bgicon_pos_bottom {
+    top: 1900px;
+  }
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 675px) {
+
+}
+@media (max-width: 623px) {
+
+}
+
+@media (max-width: 525px) {
+
+}
+@media (max-width: 525px) {
+
+}
+@media (max-width: 425px) {
+
+}
+@media (max-width: 390px) {
+
+}
+@media (max-width: 346px) {
+
+}
+@media (max-width: 280px) {
+
+  }
+}
