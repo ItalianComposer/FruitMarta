@@ -598,9 +598,49 @@ footer {
 .deposit_page__contacts {
   height: 450px;
   background: #EEE2E6;
+  padding-top: 78px;
+  padding-bottom: 77px;
 }
 .deposit_page__contacts_container {
-  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 80px;
+}
+.contacts_container__element {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.deposit_page__main_form {
+  padding-top: 179px;
+  padding-bottom: 179px;
+}
+.main_form__container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.main_form__container__input {
+  width: 58.35vw;
+  max-width: 1200px;
+  height: 70px;
+  padding: 0 40px 0 40px;
+  border: none;
+  background: #ECECEC;
+  box-shadow: 2px 2px 4px rgba(189, 189, 189, 0.11), inset 2px 2px 4px #BDBDBD;
+  border-radius: 20px;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 140%;
+  color: #A8A8A8;
+  margin-bottom: 10px;
+}
+.message_input {
+  height: 177px;
+}
+.main_form_btn {
+  width: 200px;
 }
 
 /* ===== Adaptive ===== */
