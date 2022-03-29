@@ -4,25 +4,46 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="burgerMenu.css">
   <link rel="stylesheet" href="style.css">
-  <title>Document</title>
+  <title>Make a deposit</title>
 </head>
 <body>
   <header class="deposit_page">
     <div class="header__menu">
       <img class="logo" src="images/logos/logo.png" alt="">
-      <a class="menu_item font_montserrat text_decoration_line" href="pickup">Pick up today</a>
-      <select class="menu_item font_montserrat item_select" name="Kittens">
-        <option value="">Kittens</option>
-        <option value="">British</option>
-      </select>
-      <a class="menu_item font_montserrat" href="about.html">About us</a>
-      <a class="menu_item font_montserrat" href="deposit.html">Make a Deposiit</a>
-      <a class="menu_item font_montserrat" href="faq.html">FAQ’s</a>
-      <a class="menu_item font_montserrat" href="legalInfo.html">Legal info</a>
-      <a class="menu_item font_montserrat" href="main.html">Gift Card</a>
-      <img class="search" src="images/icons/search.svg" alt="">
-      <img class="profile" src="images/icons/profile.svg" alt="">
+      <div class="burger_menu">
+        <input class="search_site" type="text" name="" value="">
+        <details class="burger">
+          <summary></summary>
+          <nav class="menu">
+            <a class="menu_item font_montserrat text_decoration_line" href="pickup">Pick up today</a>
+            <select class="menu_item font_montserrat item_select" name="Kittens">
+              <option value="">Kittens</option>
+              <option value="">British</option>
+            </select>
+            <a class="menu_item font_montserrat" href="about.html">About us</a>
+            <a class="menu_item font_montserrat" href="deposit.html">Make a Deposiit</a>
+            <a class="menu_item font_montserrat" href="faq.html">FAQ’s</a>
+            <a class="menu_item font_montserrat" href="legalInfo.html">Legal info</a>
+            <a class="menu_item font_montserrat" href="main.html">Gift Card</a>
+          </nav>
+        </details>
+      </div>
+      <div class="full__menu">
+        <a class="menu_item font_montserrat text_decoration_line" href="pickup">Pick up today</a>
+        <select class="menu_item font_montserrat item_select" name="Kittens">
+          <option value="">Kittens</option>
+          <option value="">British</option>
+        </select>
+        <a class="menu_item font_montserrat" href="about.html">About us</a>
+        <a class="menu_item font_montserrat" href="deposit.html">Make a Deposiit</a>
+        <a class="menu_item font_montserrat" href="faq.html">FAQ’s</a>
+        <a class="menu_item font_montserrat" href="legalInfo.html">Legal info</a>
+        <a class="menu_item font_montserrat" href="main.html">Gift Card</a>
+        <img class="search" src="images/icons/search.svg" alt="">
+        <img class="profile" src="images/icons/profile.svg" alt="">
+      </div>
     </div>
     <div class="header_main">
       <h1 class="header_main__title font_cinzel">make a deposit</h1>
@@ -38,7 +59,7 @@
       </p>
       <button class="blog_btn font_montserrat" type="button" name="button">Buy now</button>
     </div>
-    <img src="images/depositPage/depositCat.png" alt="">
+    <img class="deposit_page__main_img" src="images/depositPage/depositCat.png" alt="">
   </div>
   <div class="deposit_page__form_container internal_padding">
     <div class="have_any_questions__form deposit_page__form">
