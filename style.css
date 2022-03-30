@@ -735,6 +735,10 @@ footer {
   .main__bgicon_pos_top {
     left: 915px;
   }
+  .pickup_main {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
 }
 @media (max-width: 1575px) {
   .block__item {
@@ -808,6 +812,15 @@ footer {
   .form_btn {
     width: 520px;
   }
+  .pickup_main__card {
+    width: 435px;
+  }
+  .pickup_main__card_img {
+    margin-left: -20px;
+  }
+  .pickup_main__card__description {
+    margin-left: 20px;
+  }
 }
 @media (max-width: 1470px) {
   .main__menu {
@@ -850,6 +863,10 @@ footer {
   }
   .have_any_questions {
     padding-left: 50px;
+  }
+  .pickup_main {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 @media (max-width: 1385px) {
@@ -940,6 +957,14 @@ footer {
   .our_team__card_img {
     width: 350px;
     height: 450px;
+  }
+  .pickup_main__card {
+    width: 370px;
+  }
+  .pickup_main__card_img {
+    margin-left: -45px;
+    width: 180px;
+    height: 260px;
   }
 }
 @media (max-width: 1180px) {
@@ -1080,6 +1105,26 @@ footer {
   .form_btn {
     width: 400px;
   }
+  .pickup_main {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .pickup_main__card {
+    width: 310px;
+    height: 310px;
+  }
+  .pickup_main__card_img {
+    width: 150px;
+    height: 230px;
+    margin-left: -10px;
+  }
+  .pickup_main__card__description {
+    width: 105px;
+    margin-left: 15px;
+  }
+  .union_pos {
+    width: 120px;
+  }
 }
 @media (max-width: 920px) {
   .main__menu_item {
@@ -1151,6 +1196,27 @@ footer {
   .our_team__card_img {
     width: 250px;
     height: 350px;
+  }
+  .pickup_main__card_container {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0px;
+  }
+  .pickup_main__card {
+    margin-bottom: 40px;
+    width: 478px;
+    height: 330px;
+  }
+  .pickup_main__card_img {
+    width: auto;
+    margin-left: -60px;
+  }
+  .pickup_main__card__description {
+    width: 108px;
+    margin-left: 55px;
+  }
+  .union_pos {
+    width: 160px;
   }
 }
 @media (max-width: 820px) {
@@ -1418,6 +1484,12 @@ footer {
   }
   .header_main__description {
     max-width: 325px;
+  }
+  .pickup_main__card {
+    width: 370px;
+  }
+  .pickup_main__card__description {
+    margin-left: 15px;
   }
 }
 @media (max-width: 390px) {
